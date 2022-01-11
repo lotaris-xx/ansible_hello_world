@@ -1,6 +1,6 @@
 - hosts: all
   gather_facts: no
   tasks:
-    debug:
-      msg: "Hello World!"
-    delegate_to: localhost
+    - debug:
+        msg: "Hello World!"
+      delegate_to: localhost
