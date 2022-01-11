@@ -1,2 +1,2 @@
 # ansible_hello_world
-Basic playbook.
+Basic playbook that prints hello world.
